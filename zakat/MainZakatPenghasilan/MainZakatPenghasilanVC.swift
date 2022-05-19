@@ -55,10 +55,10 @@ class MainZakatPenghasilanVC: UIViewController {
             if corePrice.count > 0 && (corePrice[0].value(forKey: "fetchingDate") as! String == self.currentDate!) {
                 if let tempPrice = corePrice[0].value(forKey: "goldPrice") {
                     let intTempPrice = tempPrice as! Int
-                    self.labelHargaEmas = "Harga emas terkini adalah Rp. \(intTempPrice.formattedWithSeparator)"
+                    self.labelHargaEmas = ">> Current gold price is Rp. \(intTempPrice.formattedWithSeparator)"
                     self.goldPricePerGram = intTempPrice
                 } else {
-                    self.labelHargaEmas = "Harga emas terkini adalah ..."
+                    self.labelHargaEmas = ">> Current gold price is ..."
                 }
                 
                 return DispatchQueue.main.asyncAfter(deadline: .now()) {
@@ -117,7 +117,7 @@ class MainZakatPenghasilanVC: UIViewController {
             let currentCoreGoldPrice = json.rates.XAU
             self.currentGoldPrice = currentCoreGoldPrice
             let goldPrice = Int(round(currentCoreGoldPrice / 28.3495))
-            self.labelHargaEmas = "Harga emas terkini adalah Rp. \(goldPrice.formattedWithSeparator)"
+            self.labelHargaEmas = ">> Current gold price is Rp. \(goldPrice.formattedWithSeparator)"
             self.goldPricePerGram = goldPrice
             
             DispatchQueue.main.asyncAfter(deadline: .now()) {
