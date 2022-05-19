@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE1023162835D4A800FAE643 /* CustomComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1023152835D4A800FAE643 /* CustomComponent.swift */; };
+		FE3E2C65282B50330094A139 /* MetalPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3E2C64282B50330094A139 /* MetalPrice.swift */; };
+		FE4342A2282FDA560032D2E2 /* ThousandSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4342A1282FDA560032D2E2 /* ThousandSeparator.swift */; };
+		FE4342A5282FF3A00032D2E2 /* GoldPrice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FE4342A3282FF3A00032D2E2 /* GoldPrice.xcdatamodeld */; };
+		FE8AC3C92828DB570044D945 /* ResultZakatPenghasilanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8AC3C82828DB570044D945 /* ResultZakatPenghasilanVC.swift */; };
 		FEC6575C281B72C900CA048F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC6575B281B72C900CA048F /* AppDelegate.swift */; };
 		FEC6575E281B72C900CA048F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC6575D281B72C900CA048F /* SceneDelegate.swift */; };
 		FEC65760281B72C900CA048F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC6575F281B72C900CA048F /* ViewController.swift */; };
 		FEC65763281B72C900CA048F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEC65761281B72C900CA048F /* Main.storyboard */; };
 		FEC65765281B72C900CA048F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEC65764281B72C900CA048F /* Assets.xcassets */; };
 		FEC65768281B72C900CA048F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEC65766281B72C900CA048F /* LaunchScreen.storyboard */; };
+		FEC65771281B73CD00CA048F /* MainZakatPenghasilanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC65770281B73CD00CA048F /* MainZakatPenghasilanVC.swift */; };
+		FEC7AB9F2834824000E7029D /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC7AB9E2834824000E7029D /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE1023152835D4A800FAE643 /* CustomComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomComponent.swift; sourceTree = "<group>"; };
+		FE3E2C64282B50330094A139 /* MetalPrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalPrice.swift; sourceTree = "<group>"; };
+		FE4342A1282FDA560032D2E2 /* ThousandSeparator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThousandSeparator.swift; sourceTree = "<group>"; };
+		FE4342A4282FF3A00032D2E2 /* GoldPrice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoldPrice.xcdatamodel; sourceTree = "<group>"; };
+		FE8AC3C82828DB570044D945 /* ResultZakatPenghasilanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultZakatPenghasilanVC.swift; sourceTree = "<group>"; };
 		FEC65758281B72C900CA048F /* zakat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zakat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEC6575B281B72C900CA048F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEC6575D281B72C900CA048F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +36,8 @@
 		FEC65764281B72C900CA048F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEC65767281B72C900CA048F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEC65769281B72C900CA048F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEC65770281B73CD00CA048F /* MainZakatPenghasilanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainZakatPenghasilanVC.swift; sourceTree = "<group>"; };
+		FEC7AB9E2834824000E7029D /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +51,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE3E2C62282B4FEA0094A139 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FE3E2C64282B50330094A139 /* MetalPrice.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FE4342A0282FDA3B0032D2E2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FE4342A1282FDA560032D2E2 /* ThousandSeparator.swift */,
+				FE1023152835D4A800FAE643 /* CustomComponent.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FE8AC3C72828DB310044D945 /* ResultZakatPenghasilan */ = {
+			isa = PBXGroup;
+			children = (
+				FE8AC3C82828DB570044D945 /* ResultZakatPenghasilanVC.swift */,
+			);
+			path = ResultZakatPenghasilan;
+			sourceTree = "<group>";
+		};
 		FEC6574F281B72C900CA048F = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +95,11 @@
 		FEC6575A281B72C900CA048F /* zakat */ = {
 			isa = PBXGroup;
 			children = (
+				FEC7AB9D2834823100E7029D /* Components */,
+				FE4342A0282FDA3B0032D2E2 /* Helpers */,
+				FE3E2C62282B4FEA0094A139 /* Models */,
+				FE8AC3C72828DB310044D945 /* ResultZakatPenghasilan */,
+				FEC6576F281B736E00CA048F /* MainZakatPenghasilan */,
 				FEC6575B281B72C900CA048F /* AppDelegate.swift */,
 				FEC6575D281B72C900CA048F /* SceneDelegate.swift */,
 				FEC6575F281B72C900CA048F /* ViewController.swift */,
@@ -63,8 +107,25 @@
 				FEC65764281B72C900CA048F /* Assets.xcassets */,
 				FEC65766281B72C900CA048F /* LaunchScreen.storyboard */,
 				FEC65769281B72C900CA048F /* Info.plist */,
+				FE4342A3282FF3A00032D2E2 /* GoldPrice.xcdatamodeld */,
 			);
 			path = zakat;
+			sourceTree = "<group>";
+		};
+		FEC6576F281B736E00CA048F /* MainZakatPenghasilan */ = {
+			isa = PBXGroup;
+			children = (
+				FEC65770281B73CD00CA048F /* MainZakatPenghasilanVC.swift */,
+			);
+			path = MainZakatPenghasilan;
+			sourceTree = "<group>";
+		};
+		FEC7AB9D2834823100E7029D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FEC7AB9E2834824000E7029D /* CustomButton.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +200,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEC65760281B72C900CA048F /* ViewController.swift in Sources */,
+				FE3E2C65282B50330094A139 /* MetalPrice.swift in Sources */,
 				FEC6575C281B72C900CA048F /* AppDelegate.swift in Sources */,
+				FEC65771281B73CD00CA048F /* MainZakatPenghasilanVC.swift in Sources */,
+				FE1023162835D4A800FAE643 /* CustomComponent.swift in Sources */,
+				FE8AC3C92828DB570044D945 /* ResultZakatPenghasilanVC.swift in Sources */,
+				FE4342A2282FDA560032D2E2 /* ThousandSeparator.swift in Sources */,
 				FEC6575E281B72C900CA048F /* SceneDelegate.swift in Sources */,
+				FEC7AB9F2834824000E7029D /* CustomButton.swift in Sources */,
+				FE4342A5282FF3A00032D2E2 /* GoldPrice.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +426,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FE4342A3282FF3A00032D2E2 /* GoldPrice.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FE4342A4282FF3A00032D2E2 /* GoldPrice.xcdatamodel */,
+			);
+			currentVersion = FE4342A4282FF3A00032D2E2 /* GoldPrice.xcdatamodel */;
+			path = GoldPrice.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FEC65750281B72C900CA048F /* Project object */;
 }
